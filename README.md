@@ -15,8 +15,8 @@ Dual Cameras system. Based on the mjpeg inherited from rpi-cam-web-interface. It
         media_dir = 'http://raspberrypi.local/picam/media/'
         urlpath = urlopen(media_dir)
         string = urlpath.read().decode('utf-8')
-        patern = re.compile();
+        patern = re.compile('([^\"\']*\.jpg)');
         filelist = patern.findall(string)
-        filename = filelist[len(filelist)-1]
+        filename = filelist[len(filelist)-4]
         rsp = urlopen(media_dir+filename)
         image = rsp.read()        
