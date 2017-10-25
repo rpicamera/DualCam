@@ -1,6 +1,12 @@
 # DualCam
 Dual Cameras system. Based on the mjpeg inherited from rpi-cam-web-interface. It gives an opportunity to set up a VR live system using raspberry Pi zero and Pi 3B. 
 
+<div style:"display:inline-block" >
+  <img src="https://github.com/rpicamera/360pano/blob/master/img/Real.jpg"      height="400"/>
+  <img src="https://github.com/rpicamera/360pano/blob/master/img/RealFront.jpg" height="400"/>
+  <img src="https://github.com/rpicamera/360pano/blob/master/img/RealSide.jpg"  height="400"/> 
+</div>
+
 ## Set up dual cam web interface
 
 1: Install rpi-cam-web-interface in both Raspberry Pis, during the install, change the default name from 'html' to 'picam'.
